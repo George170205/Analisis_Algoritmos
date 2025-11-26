@@ -1,4 +1,5 @@
-from .analyzers.kmeans_analyzer import KMeansAnalyzer
+# factory.py
+from analyzers.kmeans_analyzer import KMeansAnalyzer  # Sin punto
 
 class AnalyzerFactory:
     def create(self, method, **params):
